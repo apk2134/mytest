@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9bfa8a9aa9cb4df591893bb9cdd92437" Name="Diagram1">
+        <EntityTypeShape EntityType="RentBookModel.Address" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.Author" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.BillDetail" Width="1.5" PointX="7.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.Book" Width="1.5" PointX="10" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.Category" Width="1.5" PointX="12.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.CoustomerDetail" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.CoustomerOrder" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.Login" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.Order" Width="1.5" PointX="12.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.PaymentDetail" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentBookModel.Subscription" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="RentBookModel.FK_CoustomerDetails_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.FK_BillDetails_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.FK_BillDetails_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.FK_Orders_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.FK_CoustomerOrder_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.FK_PaymentDetails_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.BookCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.BooksAuthors" ManuallyRouted="false" />
+        <AssociationConnector Association="RentBookModel.CoustomerSubscription" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
