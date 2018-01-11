@@ -1,0 +1,11 @@
+F:\BookRent\BookEntity\bin\Debug\RentBook.mdf
+F:\BookRent\BookEntity\bin\Debug\RentBook_log.ldf
+F:\BookRent\BookEntity\bin\Debug\BookEntity.dll.config
+F:\BookRent\BookEntity\bin\Debug\BookEntity.dll
+F:\BookRent\BookEntity\bin\Debug\BookEntity.pdb
+F:\BookRent\BookEntity\bin\Debug\EntityFramework.dll
+F:\BookRent\BookEntity\bin\Debug\EntityFramework.SqlServer.dll
+F:\BookRent\BookEntity\bin\Debug\EntityFramework.xml
+F:\BookRent\BookEntity\bin\Debug\EntityFramework.SqlServer.xml
+F:\BookRent\BookEntity\obj\Debug\BookEntity.dll
+F:\BookRent\BookEntity\obj\Debug\BookEntity.pdb
